@@ -1,29 +1,23 @@
 # Minecraft Server Container
 
 ## Instalação
-* Clone repositório
 ```sh
+# Clone repositório
 git clone https://github.com/PoBruno/Mine-Rosa
 cd Mine-Rosa
-```
-* Troubleshoot folder permission
-```sh
+
+# Troubleshoot folder permission
 chown 1000:1000 data
 chmod 777 data
-```
-* Deploy Container Server
-```sh
+
+# Deploy Container Server
 docker-compose up -d
 ```
 
-<br>
-
-## CLI Minecraft Server
+## CLI Minecraft Server on Docker Server
 ```sh
 docker attach mcserver
 ```
-
-<br>
 
 # RCON
 
