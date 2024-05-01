@@ -58,10 +58,12 @@ docker attach mcserver
 * `version`: Gets the version of this server including any plugins in use
 * `whitelist`: Manages the list of players allowed to use this server
 
+---
+
 <br>
 <br>
 <br>
 
----
+
 
 
