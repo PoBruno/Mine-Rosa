@@ -28,7 +28,7 @@ docker attach mcserver
 # RCON
 
 ## Web Console
-(minecraft.monga.dev.br:4326)[http://minecraft.monga.dev.br:4326/]
+[minecraft.monga.dev.br](http://minecraft.monga.dev.br:4326/)
 
 ## Commands list 
 * `ban`: Prevents the specified player from using this server
