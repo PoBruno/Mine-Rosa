@@ -1,6 +1,6 @@
 # Minecraft Server Container
 
-## Instalação
+### Instalação
 ```sh
 # Clone repositório
 git clone https://github.com/PoBruno/Mine-Rosa
@@ -14,17 +14,17 @@ chmod 777 data
 docker-compose up -d
 ```
 
-## CLI Minecraft Server on Docker Server
+### CLI Minecraft Server on Docker Server
 ```sh
 docker attach mcserver
 ```
 
 # RCON
 
-## Web Console
+### Web Console
 [minecraft.monga.dev.br](http://minecraft.monga.dev.br:4326/)
 
-## Commands list 
+### Commands list 
 * `ban`: Prevents the specified player from using this server
 * `ban-ip`: Prevents the specified IP address from using this server
 * `banlist`: View all players banned from this server
