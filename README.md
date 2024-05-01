@@ -16,14 +16,18 @@ chmod 777 data
 docker-compose up -d
 ```
 
+<br>
+
 ## CLI Minecraft Server
 ```sh
 docker attach mcserver
 ```
-<br>
+
 <br>
 
-## RCON Commands list 
+# RCON
+
+## Commands list 
 * `ban`: Prevents the specified player from using this server
 * `ban-ip`: Prevents the specified IP address from using this server
 * `banlist`: View all players banned from this server
@@ -60,6 +64,7 @@ docker attach mcserver
 <br>
 <br>
 <br>
+
 ---
 
 
