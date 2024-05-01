@@ -5,11 +5,14 @@ services:
     image: itzg/rcon
     container_name: mcweb
     environment:
-      RWA_USERNAME: "monga"
+      RWA_USERNAME: admin
+      RWA_PASSWORD: admin
       RWA_ADMIN: "TRUE"
-      RWA_RCON_HOST: "mcserver"
-      RWA_RCON_PASSWORD: "demo"
-
+      RWA_RCON_HOST: mcserver
+      RWA_RCON_PASSWORD: "monga"
+    ports:
+      - "4326:4326"
+      - "4327:4327"
   mcserver:
     image: marctv/minecraft-papermc-server:latest
     container_name: mcserver
@@ -17,8 +20,9 @@ services:
     environment:
       MEMORYSIZE: '1G'
       PAPERMC_FLAGS: ''
-	  TZ: 'BR'
+      TZ: 'BR'
     volumes:
       - ./data:/data:rw
     ports:
       - "25565:25565"
+      
