@@ -1,0 +1,39 @@
+[13:50:07] [ServerMain/WARN]: Failed to load eula.txt
+[13:50:07] [ServerMain/INFO]: [STDERR]: You have used the Spigot command line EULA agreement flag.
+[13:50:07] [ServerMain/INFO]: [STDERR]: By using this setting you are indicating your agreement to Mojang's EULA (https://account.mojang.com/documents/minecraft_eula).
+[13:50:07] [ServerMain/INFO]: [STDERR]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[13:50:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:50:07] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[13:50:08] [ServerMain/INFO]: No existing world data, creating new world
+[13:50:09] [ServerMain/INFO]: Loaded 1174 recipes
+[13:50:10] [ServerMain/INFO]: Loaded 1271 advancements
+[13:50:10] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[13:50:10] [Server thread/INFO]: Loading properties
+[13:50:10] [Server thread/INFO]: This server is running Paper version git-Paper-496 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 7ac24a1 on ver/1.20.4)
+[13:50:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:50:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:50:12] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[13:50:12] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[13:50:13] [Server thread/INFO]: Default game type: SURVIVAL
+[13:50:13] [Server thread/INFO]: Generating keypair
+[13:50:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:50:13] [Server thread/INFO]: Using epoll channel type
+[13:50:13] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:50:13] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[13:50:13] [Server thread/INFO]: Preparing level "world"
+[13:50:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:50:31] [Server thread/INFO]: Time elapsed: 272 ms
+[13:50:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:50:31] [Server thread/INFO]: Time elapsed: 120 ms
+[13:50:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:50:31] [Server thread/INFO]: Time elapsed: 107 ms
+[13:50:31] [Server thread/INFO]: Running delayed init tasks
+[13:50:31] [Server thread/INFO]: Done (20.766s)! For help, type "help"
+[13:50:31] [Server thread/INFO]: *************************************************************************************
+[13:50:31] [Server thread/INFO]: This is the first time you're starting this server.
+[13:50:31] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
+[13:50:31] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
+[13:50:31] [Server thread/INFO]: *************************************************************************************
+[13:50:31] [Server thread/INFO]: Timings Reset
