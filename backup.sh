@@ -25,21 +25,21 @@ else
 fi
 
 # Divide o arquivo data.tar.gz em partes menores
-split -b 80M "$backup_file" "$backup_dir/data_split_"
+#split -b 80M "$backup_file" "$backup_dir/data_split_"
 
 # Verifica se a divisão foi bem-sucedida
-if [ $? -eq 0 ]; then
-    echo "Divisão do arquivo concluída com sucesso."
-else
-    echo "Erro ao dividir o arquivo."
-    exit 1
-fi
+#if [ $? -eq 0 ]; then
+#    echo "Divisão do arquivo concluída com sucesso."
+#else
+#    echo "Erro ao dividir o arquivo."
+#    exit 1
+#fi
 
 # Verifica se o arquivo original data.tar.gz foi excluído e, se não, força a exclusão
-if [ -f "$backup_file" ]; then
-    echo "Forçando a exclusão do arquivo original data.tar.gz..."
-    rm -rf "$backup_file"
-fi
+#if [ -f "$backup_file" ]; then
+#    echo "Forçando a exclusão do arquivo original data.tar.gz..."
+#    rm -rf "$backup_file"
+#fi
 
 echo "Backup concluído com sucesso."
 
