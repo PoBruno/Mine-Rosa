@@ -1,9 +1,10 @@
 version: '3.3'
-
 services:
-  web:
+  mc-panel:
     image: itzg/rcon
-    container_name: mcweb
+    container_name: mc-panel
+    networks:
+      - game-server
     environment:
       RWA_USERNAME: admin
       RWA_PASSWORD: admin
@@ -13,9 +14,11 @@ services:
     ports:
       - "4326:4326"
       - "4327:4327"
-  mcserver:
+  mc-server:
     image: marctv/minecraft-papermc-server:latest
-    container_name: mcserver
+    container_name: mc-server
+    networks:
+      - game-server
     restart: unless-stopped
     environment:
       MEMORYSIZE: '1G'
@@ -25,4 +28,5 @@ services:
       - ./data:/data:rw
     ports:
       - "25565:25565"
-      
+networks:
+  game-server:
