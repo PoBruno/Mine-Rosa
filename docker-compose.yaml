@@ -1,5 +1,6 @@
 version: '3.3'
 services:
+  APAGAR: TEstEE
   mc-panel:
     image: itzg/rcon
     container_name: mc-panel
